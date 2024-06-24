@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Copyright (c) 2022 8th Wall, Inc. -->
+    <!-- head.html is optional; elements will be added to your html head before app.js is loaded. -->
+
+    <!-- Use "8thwall:" meta tags to hook into 8th Wall's build process and developer tools. -->
+
+    <meta name="theme-color" content="#319197" />
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="icon" type="image/x-icon" href="assets/logo_no_text.png" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/accordion-js@3.3.2/dist/accordion.min.css
+
+"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Other external scripts and meta tags can also be added. -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script> -->
+
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-CNKJQ7EQDW"
+    ></script>
+
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-CNKJQ7EQDW");
+    </script>
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    />
+
+    <meta charset="utf-8" />
+    <title>My first three.js app</title>
+
+    <script
+      async
+      src="https://unpkg.com/es-module-shims@1.6.3/dist/es-module-shims.js"
+    ></script>
+
+    <!-- <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@0.152.2/build/three.module.js",
+          "three/addons/": "https://unpkg.com/three@0.152.2/examples/jsm/"
+        }
+      }
+    </script> -->
+  </head>
+  <body>
+    <script src="./bundle.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-extras@7.0.0/dist/aframe-extras.min.js"></script>
+
+    <script src="https://unpkg.com/accordion-js@3.3.2/dist/accordion.min.js"></script>
+    <script src="https://unpkg.com/aframe-cubemap-component@3.0.0/index.js"></script>
+
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
+  </body>
+</html>
